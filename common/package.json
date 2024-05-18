@@ -1,0 +1,12 @@
+{
+  "name": "@ayush0710/medium-common",
+  "version": "1.0.3",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "AYUSH",
+  "license": "ISC"
+}
