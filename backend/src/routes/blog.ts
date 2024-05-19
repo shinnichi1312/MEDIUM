@@ -172,8 +172,9 @@ blogRouter.get("/:id", async (c) => {
         }
       },
     });
-
+    
     const userBookmarkId = post?.bookmarks.find(
+      //@ts-ignore
       (bookmark) => bookmark.user.id === userId
     );
 
