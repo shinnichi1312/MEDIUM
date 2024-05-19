@@ -1,4 +1,4 @@
-import TextAreaField from "../TextAreaField";
+import TextAreaField from "../Textarea";
 import { useContext, useState } from "react";
 import { UserProfileContext } from "./UserProfile";
 import Spinner from "../Spinner";

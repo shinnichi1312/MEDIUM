@@ -63,7 +63,7 @@ export const useBlog = ({ id }: { id: string }) => {
 		if (!token) {
 			navigate("/signin");
 		}
-		const response = await axios.put(`${BACKEND_URL}/api/v1/blog/${blogId}`, {
+		const response = await axios.delete(`${BACKEND_URL}/api/v1/blog/${blogId}`, {
 			headers: {
 				Authorization: `Bearer ${token}`,
 			},
