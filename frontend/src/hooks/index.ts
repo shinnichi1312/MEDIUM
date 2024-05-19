@@ -36,6 +36,7 @@ export const useBlog = ({ id }: { id: string }) => {
 		author: {
 			id: "",
 			name: "",
+			details: "",
 		},
 		claps: [],
 	});
