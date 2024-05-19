@@ -11,7 +11,6 @@ const Home = () => {
 	);
 };
 
-// Disabling this component temporarily 
 const About = () => (
 	<div className=" bg-gray-100 text-gray-800 grid grid-cols-12">
 		<div className="col-span-12 order-2 md:order-1 md:col-span-6 p-6">
