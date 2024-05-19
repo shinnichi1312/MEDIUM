@@ -192,7 +192,7 @@ blogRouter.get("/:id", async (c) => {
   }
 });
 
-blogRouter.delete("/:id", async (c) => {
+blogRouter.put("/:id", async (c) => {
   try {
     const prisma = new PrismaClient({
       datasourceUrl: c.env.DATABASE_URL,
