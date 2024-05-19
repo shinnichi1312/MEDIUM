@@ -25,7 +25,7 @@ const BookmarkTab = ({ bookmarks }: BookmarkTabProps) => {
         <div className="flex justify-center mt-10">
           <h6 className="text-xl font-bold py-2">
             No bookmarks yet! You can bookmark blogs in the blogs page{" "}
-            <Link to="/signin" className="underline">
+            <Link to="/blogs" className="underline">
               here
             </Link>
           </h6>
