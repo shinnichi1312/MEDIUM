@@ -197,7 +197,7 @@ blogRouter.delete("/:id", async (c) => {
     const prisma = new PrismaClient({
       datasourceUrl: c.env.DATABASE_URL,
     }).$extends(withAccelerate());
-    const postId = await c.req.param("id");
+    const postId = c.req.param("id");
     const post = await prisma.post.delete({
       where: {
         id: postId,
