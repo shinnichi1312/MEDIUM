@@ -1,6 +1,6 @@
 # Blogging-app [Fullstack Javascript]
 
-![blogging app](https://i.ibb.co/5csghDJ/Screenshot-2024-05-18-160559.png)
+![blogging app]
 
 [Medium-app](https://medium-plum-five.vercel.app/) is a React frontend and Cloudflare workers backend application offering features replicating Medium, the popular blogging platform. The application comes with JWT authentication, Postgres database, and various user features.
 
