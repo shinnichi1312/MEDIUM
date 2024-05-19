@@ -20,7 +20,7 @@ const BlogCard = ({ author, title, content, publishedDate, id, fullWidth }: Blog
   const quillContent = getPlainTextFromHTML(content).split(" ").slice(0, 40).join(" ") + "...";
   
   return (
-    <Link to={`/blog/${id}`} className={`blog-card px-4 py-8 border-b border-slate-200 w-full ${!fullWidth ? "md:w-3/6" : null} md:border md:border-gray-50 bg-white shadow-sm`}>
+    <Link to={`/blog/${id}`} className={`blog-card px-4 shadow-lg my-3 py-8 border-b border-slate-200 w-full ${!fullWidth ? "md:w-3/6" : null} md:border md:border-gray-50 bg-white shadow-sm`}>
       <div className="flex items-center gap-4">
         <Avatar name={author?.name || ""} />
         <div>
